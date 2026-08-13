@@ -1,0 +1,17 @@
+[00:00:03] Interviewer: Walk me through your most recent checkout on the site, start to finish.
+[00:00:09] Participant: I added three items to my cart, went to checkout, and got stuck because it forced me to create an account before I could even see the shipping cost. I almost abandoned the cart right there.
+[00:00:24] Interviewer: What would you have preferred?
+[00:00:26] Participant: Guest checkout. I just wanted to buy the thing, not sign up for a newsletter and a loyalty program in the process.
+[00:00:35] Interviewer: Did you end up creating an account?
+[00:00:38] Participant: I did, reluctantly, because I'd already spent ten minutes picking items and didn't want to lose my cart. But I was annoyed the whole time.
+[00:00:49] Interviewer: Was there anything confusing about the account creation form itself?
+[00:00:53] Participant: The password requirements weren't shown upfront. I typed a password, hit submit, and got an error saying it needed a special character. Then I fixed it, submitted again, and it said it needed a number too. It should just show me the rules before I start typing.
+[00:01:14] Interviewer: That's a classic one. What about the payment step?
+[00:01:18] Participant: Payment itself was smooth, Apple Pay worked great, one tap and done. No complaints there at all.
+[00:01:27] Interviewer: Did you notice the order summary and shipping estimate?
+[00:01:31] Participant: Yeah, the shipping estimate said "5 to 7 business days" but didn't give me an actual delivery date. I had to do the math myself, and I wasn't even sure if weekends counted.
+[00:01:46] Interviewer: If you could change one thing about this flow, what would it be?
+[00:01:50] Participant: Guest checkout, hands down. Let me pay first, ask me to create an account after the order is placed if you want. That's how most sites I like to shop on do it.
+[00:02:05] Interviewer: Great feedback. Anything else before we finish up?
+[00:02:09] Participant: Just that showing upfront password rules and an actual delivery date instead of a range would go a long way too. Small things, but they add up.
+[00:02:20] Interviewer: Appreciate the detail, thank you!

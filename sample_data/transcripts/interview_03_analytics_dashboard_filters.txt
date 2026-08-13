@@ -1,0 +1,15 @@
+[00:00:04] Interviewer: Tell me about how you typically build a report for your weekly stakeholder meeting.
+[00:00:11] Participant: Every Monday I pull revenue by region, filter to the last 7 days, and break it down by product line. It's the same report every week, but I have to rebuild the filters from scratch every single time because the dashboard doesn't save filter presets.
+[00:00:29] Interviewer: How long does that take you?
+[00:00:31] Participant: About 20 minutes if nothing goes wrong. Sometimes the filters reset mid-way if I navigate to a different tab, and then I have to start over. That's happened maybe five or six times in the last two months.
+[00:00:47] Interviewer: That sounds frustrating. Do you export this data anywhere?
+[00:00:51] Participant: Yes, I export to CSV and then drop it into a slide deck. The export function is solid actually, no complaints there. It's really the filter persistence and the fact that there's no "save as view" option that kill me.
+[00:01:10] Interviewer: Have you tried bookmarking the URL?
+[00:01:13] Participant: I did try that once, but the filter state isn't actually encoded in the URL, so the bookmark just opens the dashboard with default filters. Not helpful.
+[00:01:26] Interviewer: Got it, that's a good technical detail. What about sharing reports with your team?
+[00:01:31] Participant: There's no way to share a specific filtered view with a colleague. I usually just screenshot it and Slack it over, which feels very 2015.
+[00:01:44] Interviewer: If you had to prioritize, what's the single highest impact fix?
+[00:01:49] Participant: Saved filter presets, no question. Something like "My Monday Report" that I can click once and it loads exactly the view I need. Shareable links would be a close second.
+[00:02:05] Interviewer: Anything positive to highlight before we wrap?
+[00:02:09] Participant: The chart rendering is fast even with large datasets, and the color coding by product line is genuinely helpful for reading trends at a glance.
+[00:02:20] Interviewer: Great, thanks for the walkthrough, this was really useful.

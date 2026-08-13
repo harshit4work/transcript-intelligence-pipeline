@@ -1,0 +1,16 @@
+[00:00:02] Interviewer: Thanks for hopping on. Just to start, can you walk me through the last time you set up a new project in the tool?
+[00:00:11] Participant: Yeah, so it was maybe three weeks ago. We were kicking off a new client engagement and I needed to spin up a workspace fast. Honestly it took me almost 40 minutes just to get the board set up the way I wanted.
+[00:00:26] Interviewer: What made it take that long?
+[00:00:29] Participant: A few things. First, the templates don't really match how our team works — we do a hybrid of kanban and sprints, and there's no template for that, so I had to build custom columns from scratch. Second, I couldn't figure out how to bulk-invite my team. I ended up adding six people one at a time.
+[00:00:52] Interviewer: Got it. Did you look for a bulk invite option?
+[00:00:55] Participant: I did, I searched the help docs and even tried the settings menu, but it's buried under "Workspace Admin" which isn't intuitive at all. I'd expect that on the main invite screen.
+[00:01:10] Interviewer: That's helpful. Anything else that slowed you down?
+[00:01:14] Participant: The onboarding checklist that pops up for new workspaces is generic — it tells you to "invite a teammate" and "create a task" but doesn't actually adapt based on what industry or team type you picked during signup. It felt like it was designed for a solo user, not an agency team like ours.
+[00:01:34] Interviewer: If you could wave a magic wand and fix one thing, what would it be?
+[00:01:39] Participant: Definitely templates for different team structures — agency, engineering, marketing — with sensible defaults. And bulk invite via email list or CSV upload, that would save me so much time every single project kickoff.
+[00:01:55] Interviewer: Makes sense. How often do you kick off new workspaces?
+[00:01:59] Participant: Probably twice a month. So this isn't a one-time annoyance, it's a recurring pain every two weeks.
+[00:02:10] Interviewer: Understood. Last question — is there anything you actually love about the current setup flow?
+[00:02:16] Participant: The visual design is clean, I'll give it that. And once the board is finally set up, day-to-day task management is smooth. It's really just that first-hour setup experience that's rough.
+[00:02:30] Interviewer: Great, thank you so much for the detailed feedback, this is exactly what we needed.
+[00:02:34] Participant: Happy to help, good luck with it!

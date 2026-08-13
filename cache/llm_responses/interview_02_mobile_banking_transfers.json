@@ -1,0 +1,73 @@
+{
+  "interview_id": "interview_02_mobile_banking_transfers",
+  "source_file": "sample_data/transcripts/interview_02_mobile_banking_transfers.txt",
+  "themes": [
+    {
+      "title": "Adding a new payee is manual and pushes users to competitors",
+      "summary": "Requiring account + routing numbers to add a payee (instead of phone/email lookup) is slow enough that the participant switched to a competing P2P app to complete the task.",
+      "supporting_quotes": [
+        "My friend had to go find a blank check to read it off to me over text.",
+        "I actually gave up and used a different app... It was way faster."
+      ],
+      "frequency": 2
+    },
+    {
+      "title": "Security holds and limits are invisible until they block you",
+      "summary": "Both the 24-hour new-payee hold and transfer limits are undocumented in-app; the participant only discovered them by hitting an error or calling support.",
+      "supporting_quotes": [
+        "the app doesn't explain why or tell you when the hold will lift",
+        "I hit the limit and had no idea what the limit even was beforehand"
+      ],
+      "frequency": 2
+    }
+  ],
+  "pain_points": [
+    {
+      "description": "Adding a new payee requires manually entering account and routing numbers instead of a phone number or email lookup.",
+      "severity": "high",
+      "affected_area": "payments_transfers",
+      "quote": "I actually gave up and used a different app, one of those peer-to-peer ones, because it just needed their phone number."
+    },
+    {
+      "description": "The mandatory 24-hour hold on new payees is not explained in-app, causing users to think the app is broken and contact support.",
+      "severity": "high",
+      "affected_area": "payments_transfers",
+      "quote": "I called support, waited on hold for like fifteen minutes."
+    },
+    {
+      "description": "Transfer limits are not shown to the user before they attempt a transfer, only surfaced as a hard block after the fact.",
+      "severity": "medium",
+      "affected_area": "payments_transfers",
+      "quote": "I hit the limit and had no idea what the limit even was beforehand."
+    }
+  ],
+  "action_items": [
+    {
+      "action": "Support phone-number or email-based payee lookup for transfers.",
+      "owner_hint": "Eng",
+      "priority": "high",
+      "rationale": "User abandoned the primary flow entirely and switched to a competitor over this."
+    },
+    {
+      "action": "Add an in-app banner explaining the 24-hour new-payee security hold at the moment it's applied.",
+      "owner_hint": "Design",
+      "priority": "high",
+      "rationale": "Prevents unnecessary support calls; user assumed the app was broken."
+    },
+    {
+      "action": "Surface transfer limits proactively in the transfer flow before the user hits them.",
+      "owner_hint": "Design",
+      "priority": "medium",
+      "rationale": "Improves transparency for larger/less routine transfers."
+    }
+  ],
+  "entities": [
+    {"name": "peer-to-peer app", "type": "competitor", "mentions": 1},
+    {"name": "biometric login", "type": "feature", "mentions": 1},
+    {"name": "transfer limit", "type": "feature", "mentions": 2},
+    {"name": "24 hour hold", "type": "feature", "mentions": 1}
+  ],
+  "prompt_version": "v3",
+  "extraction_method": "llm",
+  "confidence": 0.89
+}

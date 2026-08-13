@@ -1,0 +1,73 @@
+{
+  "interview_id": "interview_03_analytics_dashboard_filters",
+  "source_file": "sample_data/transcripts/interview_03_analytics_dashboard_filters.txt",
+  "themes": [
+    {
+      "title": "No way to save or persist a recurring filtered view",
+      "summary": "The participant rebuilds the same weekly filter set from scratch every Monday because there's no saved-view/preset feature, and filters silently reset when navigating tabs.",
+      "supporting_quotes": [
+        "I have to rebuild the filters from scratch every single time",
+        "the filters reset mid-way if I navigate to a different tab"
+      ],
+      "frequency": 3
+    },
+    {
+      "title": "No lightweight way to share a specific view with teammates",
+      "summary": "Bookmarking doesn't preserve filter state and there's no shareable link, so the participant resorts to screenshotting the dashboard.",
+      "supporting_quotes": [
+        "the filter state isn't actually encoded in the URL",
+        "I usually just screenshot it and Slack it over"
+      ],
+      "frequency": 1
+    }
+  ],
+  "pain_points": [
+    {
+      "description": "No saved filter presets — the same weekly filter combination must be rebuilt manually every time, taking ~20 minutes.",
+      "severity": "high",
+      "affected_area": "analytics_dashboard",
+      "quote": "I have to rebuild the filters from scratch every single time because the dashboard doesn't save filter presets."
+    },
+    {
+      "description": "Filters reset unexpectedly when navigating away from the current tab, forcing a full restart, which has happened 5-6 times in two months.",
+      "severity": "medium",
+      "affected_area": "analytics_dashboard",
+      "quote": "the filters reset mid-way if I navigate to a different tab"
+    },
+    {
+      "description": "Filter state is not encoded in the URL, so bookmarking or sharing a link doesn't preserve the view.",
+      "severity": "medium",
+      "affected_area": "analytics_dashboard",
+      "quote": "the filter state isn't actually encoded in the URL, so the bookmark just opens the dashboard with default filters"
+    }
+  ],
+  "action_items": [
+    {
+      "action": "Add saved filter presets (e.g. named views like \"My Monday Report\") that can be loaded in one click.",
+      "owner_hint": "Eng",
+      "priority": "high",
+      "rationale": "Single highest-impact fix per the participant; recurring weekly pain."
+    },
+    {
+      "action": "Persist filter state across tab navigation within a session.",
+      "owner_hint": "Eng",
+      "priority": "medium",
+      "rationale": "Currently causes users to lose and rebuild work mid-task."
+    },
+    {
+      "action": "Encode filter state in the URL and add a native shareable-link option for filtered views.",
+      "owner_hint": "Eng",
+      "priority": "medium",
+      "rationale": "Would replace the current screenshot-and-Slack workaround for sharing reports with teammates."
+    }
+  ],
+  "entities": [
+    {"name": "saved filter presets", "type": "feature", "mentions": 1},
+    {"name": "CSV export", "type": "feature", "mentions": 1},
+    {"name": "Slack", "type": "integration", "mentions": 1},
+    {"name": "analytics dashboard", "type": "product_area", "mentions": 2}
+  ],
+  "prompt_version": "v3",
+  "extraction_method": "llm",
+  "confidence": 0.9
+}

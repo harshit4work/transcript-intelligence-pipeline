@@ -1,0 +1,14 @@
+[00:00:02] Interviewer: How do you currently find out about updates on tasks assigned to you?
+[00:00:08] Participant: I get an email for literally everything — a comment, a status change, someone mentioning the task in another ticket. My inbox is just noise at this point, so honestly I stopped reading them.
+[00:00:22] Interviewer: When did you stop reading them?
+[00:00:24] Participant: A couple months in. Now I only find out about important stuff when someone pings me directly in Slack, which kind of defeats the purpose of having notifications in the tool at all.
+[00:00:38] Interviewer: Have you looked at the notification settings to customize this?
+[00:00:42] Participant: I have, but it's all-or-nothing per category. Like I can turn off "all comment notifications" but I can't say "only notify me on comments where I'm mentioned." That granularity just isn't there.
+[00:00:58] Interviewer: That's a really specific and useful detail. Do you use the in-app notification bell at all?
+[00:01:04] Participant: Rarely, because it shows the same firehose as email, just in a different place. There's no way to filter it by priority or type.
+[00:01:15] Interviewer: If we built one thing to fix this, what would matter most?
+[00:01:19] Participant: An @mention-only digest option, and the ability to set different notification rules per project. My high-priority client project should notify me on everything, but my internal admin board can just be a weekly summary.
+[00:01:36] Interviewer: That's great, very actionable. Anything working well today?
+[00:01:41] Participant: The Slack integration itself is reliable, messages come through fast when someone does @ mention me there. It's really just the native email and in-app notifications that are broken for how I actually want to work.
+[00:01:56] Interviewer: Perfect, this gives us a lot to work with. Thanks so much for your time.
+[00:02:00] Participant: No problem, hope it helps!

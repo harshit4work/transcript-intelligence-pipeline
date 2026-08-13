@@ -1,0 +1,73 @@
+{
+  "interview_id": "interview_01_pm_tool_onboarding",
+  "source_file": "sample_data/transcripts/interview_01_pm_tool_onboarding.txt",
+  "themes": [
+    {
+      "title": "First-hour workspace setup is slow and generic",
+      "summary": "New workspace setup takes ~40 minutes because templates don't match hybrid kanban/sprint team structures and the onboarding checklist doesn't adapt to team type, forcing custom setup from scratch every time.",
+      "supporting_quotes": [
+        "it took me almost 40 minutes just to get the board set up the way I wanted",
+        "It felt like it was designed for a solo user, not an agency team like ours."
+      ],
+      "frequency": 3
+    },
+    {
+      "title": "Team invitation flow doesn't scale past one person at a time",
+      "summary": "There is no bulk invite option surfaced anywhere intuitive; the participant added six teammates one at a time and the actual bulk feature (if any) is buried under Workspace Admin.",
+      "supporting_quotes": [
+        "I ended up adding six people one at a time.",
+        "it's buried under \"Workspace Admin\" which isn't intuitive at all"
+      ],
+      "frequency": 2
+    }
+  ],
+  "pain_points": [
+    {
+      "description": "No project template matches hybrid kanban/sprint team structures (e.g. agency teams), forcing manual column setup from scratch on every new workspace.",
+      "severity": "high",
+      "affected_area": "workspace_setup",
+      "quote": "there's no template for that, so I had to build custom columns from scratch"
+    },
+    {
+      "description": "Bulk-invite functionality is either missing or hidden under Workspace Admin instead of the main invite screen.",
+      "severity": "high",
+      "affected_area": "team_invites",
+      "quote": "I'd expect that on the main invite screen"
+    },
+    {
+      "description": "Onboarding checklist is generic and doesn't adapt based on the industry/team type selected at signup.",
+      "severity": "medium",
+      "affected_area": "onboarding",
+      "quote": "it doesn't actually adapt based on what industry or team type you picked during signup"
+    }
+  ],
+  "action_items": [
+    {
+      "action": "Add pre-built workspace templates for common team structures (agency, engineering, marketing) with sensible default columns.",
+      "owner_hint": "PM",
+      "priority": "high",
+      "rationale": "Directly requested fix; recurring pain the user hits twice a month at every project kickoff."
+    },
+    {
+      "action": "Add bulk invite via email list or CSV upload directly on the primary invite screen.",
+      "owner_hint": "Eng",
+      "priority": "high",
+      "rationale": "Current workaround (one-at-a-time invites) doesn't scale and the existing option is undiscoverable."
+    },
+    {
+      "action": "Make the post-signup onboarding checklist adapt based on team type/industry selected during signup.",
+      "owner_hint": "Design",
+      "priority": "medium",
+      "rationale": "Checklist currently feels built for solo users, mismatched with agency/team use cases."
+    }
+  ],
+  "entities": [
+    {"name": "Workspace Admin", "type": "product_area", "mentions": 1},
+    {"name": "onboarding checklist", "type": "feature", "mentions": 2},
+    {"name": "bulk invite", "type": "feature", "mentions": 1},
+    {"name": "agency team", "type": "persona", "mentions": 1}
+  ],
+  "prompt_version": "v3",
+  "extraction_method": "llm",
+  "confidence": 0.91
+}

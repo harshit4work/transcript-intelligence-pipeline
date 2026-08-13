@@ -1,0 +1,15 @@
+[00:00:03] Interviewer: Let's talk about the last time you sent money to someone new in the app. Can you describe what happened?
+[00:00:10] Participant: Sure, I was splitting a dinner bill with a friend last weekend. I went to add them as a new payee and the app asked for their account number and routing number, which nobody just has memorized. My friend had to go find a blank check to read it off to me over text.
+[00:00:29] Interviewer: Did you consider any other way to send the money?
+[00:00:32] Participant: Yeah, I actually gave up and used a different app, one of those peer-to-peer ones, because it just needed their phone number. It was way faster.
+[00:00:44] Interviewer: That's a significant signal. Was there anything else about adding a payee that felt clunky?
+[00:00:50] Participant: The confirmation step is weird — after you add someone, there's a mandatory 24 hour hold before you can send them anything, and the app doesn't explain why or tell you when the hold will lift. I just saw an error and assumed the app was broken.
+[00:01:08] Interviewer: How did you figure out it was a hold?
+[00:01:11] Participant: I called support, waited on hold for like fifteen minutes. They told me it's a fraud prevention thing. Fine, I get it, but just tell me that in the app! A little banner saying "new payees are available to pay after 24 hours for your security" would have saved me a phone call.
+[00:01:30] Interviewer: Totally fair. Switching gears, how do you feel about the transfer limits?
+[00:01:35] Participant: They're fine day to day, but when I was helping my parents with a larger transfer last month, I hit the limit and had no idea what the limit even was beforehand. Again, no visibility until you hit a wall.
+[00:01:50] Interviewer: If we fixed one thing here, what would move the needle most for you?
+[00:01:55] Participant: Phone number or email based payee lookup, for sure. That's table stakes at this point, every other app does it. And just more transparency generally — show me limits and holds before I hit them, not after.
+[00:02:12] Interviewer: Anything you'd want us to keep exactly as is?
+[00:02:16] Participant: The biometric login is great, fast and reliable. Never had an issue there.
+[00:02:22] Interviewer: Perfect, thanks for walking through that in detail.

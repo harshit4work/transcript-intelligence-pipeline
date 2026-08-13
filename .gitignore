@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+output/json/*.json
+output/notion_markdown/*.md
+output/notion_preview/*.md
+!output/json/.gitkeep
+!output/notion_markdown/.gitkeep
+!output/notion_preview/.gitkeep
+.streamlit/secrets.toml
+.pytest_cache/
+*.egg-info/
+.DS_Store

@@ -1,0 +1,72 @@
+{
+  "interview_id": "interview_05_saas_notifications",
+  "source_file": "sample_data/transcripts/interview_05_saas_notifications.txt",
+  "themes": [
+    {
+      "title": "Notification overload has trained users to stop reading notifications",
+      "summary": "Getting an email for every comment/status-change/mention created so much noise the participant stopped reading notifications entirely within a couple months, relying on direct Slack pings instead.",
+      "supporting_quotes": [
+        "I get an email for literally everything... my inbox is just noise at this point, so honestly I stopped reading them.",
+        "I only find out about important stuff when someone pings me directly in Slack"
+      ],
+      "frequency": 3
+    },
+    {
+      "title": "Notification settings lack per-project and per-type granularity",
+      "summary": "Existing controls are all-or-nothing per category, with no way to set different notification rules for different projects based on priority.",
+      "supporting_quotes": [
+        "I can turn off \"all comment notifications\" but I can't say \"only notify me on comments where I'm mentioned.\"",
+        "My high-priority client project should notify me on everything, but my internal admin board can just be a weekly summary."
+      ],
+      "frequency": 2
+    }
+  ],
+  "pain_points": [
+    {
+      "description": "Email notifications fire for every event type (comments, status changes, mentions) with no filtering, causing users to disengage entirely.",
+      "severity": "high",
+      "affected_area": "notifications",
+      "quote": "I get an email for literally everything... so honestly I stopped reading them."
+    },
+    {
+      "description": "Notification settings only support all-or-nothing toggles per category, not granular rules like mention-only.",
+      "severity": "medium",
+      "affected_area": "notifications",
+      "quote": "that granularity just isn't there"
+    },
+    {
+      "description": "In-app notification bell shows the same unfiltered firehose as email, with no priority or type filtering.",
+      "severity": "medium",
+      "affected_area": "notifications",
+      "quote": "it shows the same firehose as email, just in a different place"
+    }
+  ],
+  "action_items": [
+    {
+      "action": "Add an @mention-only digest notification option.",
+      "owner_hint": "Eng",
+      "priority": "high",
+      "rationale": "Directly requested; addresses the core cause of notification fatigue."
+    },
+    {
+      "action": "Support per-project notification rules (e.g. real-time for high-priority projects, weekly digest for low-priority ones).",
+      "owner_hint": "Eng",
+      "priority": "high",
+      "rationale": "Matches how the user actually prioritizes different projects."
+    },
+    {
+      "action": "Add filtering/prioritization to the in-app notification bell, not just email.",
+      "owner_hint": "Design",
+      "priority": "medium",
+      "rationale": "In-app notifications currently offer no advantage over the broken email experience."
+    }
+  ],
+  "entities": [
+    {"name": "Slack integration", "type": "integration", "mentions": 2},
+    {"name": "notification settings", "type": "feature", "mentions": 1},
+    {"name": "in-app notification bell", "type": "feature", "mentions": 1}
+  ],
+  "prompt_version": "v3",
+  "extraction_method": "llm",
+  "confidence": 0.9
+}
